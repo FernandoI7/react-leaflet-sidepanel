@@ -4,18 +4,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build output directories
-dist/
-out/
-build/
-
-# TypeScript dependencies
-*.tsbuildinfo
-
-# Log files
-logs
-*.log
-logs/*
 
 # Operating system files
 .DS_Store
