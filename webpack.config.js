@@ -1,12 +1,16 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: {
+    SidePanel: "./src/SidePanel.tsx",
+    index: "./src/index.tsx",
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
+    filename: "[name].js",
     library: "ReactLeafletSidepanel",
     libraryTarget: "umd",
+    globalObject: "this",
   },
   module: {
     rules: [
