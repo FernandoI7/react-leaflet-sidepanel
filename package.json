@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-sidepanel",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A plugin for Leaflet.js that allows adding side panels to the map.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FernandoI7/react-leaflet-sidepanel.git"
+    "url": "git+https://github.com/FernandoI7/react-leaflet-sidepanel.git"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
