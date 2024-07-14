@@ -5,3 +5,4 @@ interface SidePanelProps {
 }
 declare const SidePanel: React.FC<SidePanelProps>;
 export default SidePanel;
+//# sourceMappingURL=SidePanel.d.ts.map

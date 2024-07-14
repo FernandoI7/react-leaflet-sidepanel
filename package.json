@@ -1,11 +1,14 @@
 {
   "name": "react-leaflet-sidepanel",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A plugin for Leaflet.js that allows adding side panels to the map.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "webpack --mode production",
-    "prepublish": "npm run build"
+    "clean": "rm -rf dist/",
+    "build": "npm run clean && webpack --mode production",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public"
   },
   "keywords": [],
   "author": "Afonso Barreto <fernando.analista.si@gmail.com>",
