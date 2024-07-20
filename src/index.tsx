@@ -1,4 +1,1 @@
-import "./style.css";
-import SidePanel from "./SidePanel";
-
-export { SidePanel };
+export { default as SidePanel } from './SidePanel';
